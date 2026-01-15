@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Data files (don't commit actual data)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+!data/sample/*.csv
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker/volumes/
+
+# Power BI (large files)
+*.pbix
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+credentials.json
